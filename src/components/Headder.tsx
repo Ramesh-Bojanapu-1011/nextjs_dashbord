@@ -6,11 +6,11 @@ type Props = {};
 const Headder = (props: Props) => {
   return (
     <div>
-      <header className="bg-white caret-transparent shadow-sm border-b">
+      <header className="bg-white  shadow-sm border-b">
         <div className="flex items-center justify-between px-4 sm:px-6 py-4">
           <div className="flex items-center space-x-2 sm:space-x-4">
             {/* <Menu className="w-6 h-6 text-gray-600 cursor-pointer" /> */}
-            <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
+            <h1 className="text-xl caret-transparent sm:text-2xl font-bold text-gray-900">
               Dashboard
             </h1>
           </div>
