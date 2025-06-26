@@ -269,7 +269,6 @@ const dashboard = (props: Props) => {
         </div>
       </div>
 
-
       {/* Footer */}
       {/* Footer */}
       <footer className="bg-white border-t ">
@@ -277,9 +276,12 @@ const dashboard = (props: Props) => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
             {/* Company Info */}
             <div className="md:col-span-1">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Dashboard</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                Dashboard
+              </h3>
               <p className="text-sm text-gray-600 mb-3">
-                Modern analytics dashboard for tracking your business metrics and performance.
+                Modern analytics dashboard for tracking your business metrics
+                and performance.
               </p>
               <div className="flex space-x-3">
                 <div className="w-8 h-8 bg-blue-500 rounded flex items-center justify-center cursor-pointer hover:bg-blue-600 transition-colors">
@@ -296,35 +298,99 @@ const dashboard = (props: Props) => {
 
             {/* Quick Links */}
             <div>
-              <h4 className="text-sm font-semibold text-gray-900 mb-3">Quick Links</h4>
+              <h4 className="text-sm font-semibold text-gray-900 mb-3">
+                Quick Links
+              </h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Dashboard</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Analytics</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Reports</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Settings</a></li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    Analytics
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    Reports
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    Settings
+                  </a>
+                </li>
               </ul>
             </div>
 
             {/* Resources */}
             <div>
-              <h4 className="text-sm font-semibold text-gray-900 mb-3">Resources</h4>
+              <h4 className="text-sm font-semibold text-gray-900 mb-3">
+                Resources
+              </h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Documentation</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">API Reference</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Support</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Community</a></li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    API Reference
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    Support
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+                  >
+                    Community
+                  </a>
+                </li>
               </ul>
             </div>
 
             {/* Contact */}
             <div>
-              <h4 className="text-sm font-semibold text-gray-900 mb-3">Contact</h4>
+              <h4 className="text-sm font-semibold text-gray-900 mb-3">
+                Contact
+              </h4>
               <ul className="space-y-2">
                 <li className="text-sm text-gray-600">support@dashboard.com</li>
                 <li className="text-sm text-gray-600">+1 (555) 123-4567</li>
                 <li className="text-sm text-gray-600">
-                  123 Business St.<br />
-                  Suite 100<br />
+                  123 Business St.
+                  <br />
+                  Suite 100
+                  <br />
                   City, State 12345
                 </li>
               </ul>
@@ -337,9 +403,24 @@ const dashboard = (props: Props) => {
               © 2025 Dashboard Inc. All rights reserved.
             </div>
             <div className="flex flex-wrap gap-4">
-              <a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Privacy Policy</a>
-              <a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Terms of Service</a>
-              <a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">Cookie Policy</a>
+              <a
+                href="#"
+                className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="#"
+                className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+              >
+                Terms of Service
+              </a>
+              <a
+                href="#"
+                className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
+              >
+                Cookie Policy
+              </a>
             </div>
           </div>
         </div>

@@ -10,9 +10,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/globe.svg" />
       </Head>
-      <div>
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
         <Link href="/dashboard">
-          <h1 className="text-3xl font-bold underline">Welcome to Next.js!</h1>
+          <h1 className="text-3xl font-bold underline">Go to Dashboard</h1>
         </Link>
       </div>
     </>
