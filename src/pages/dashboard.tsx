@@ -75,7 +75,7 @@ const dashboard = (props: Props) => {
       <Headder />
       {/* Card */}
       <div>
-        <div className="grid grid-cols-1 caret-transparent sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-6 sm:mb-8">
+        <div className="grid grid-cols-1 pt-4    caret-transparent sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-6 sm:mb-8">
           <StatCard
             title="Total Revenue"
             value="$45,231"
@@ -108,8 +108,8 @@ const dashboard = (props: Props) => {
       </div>
 
       {/* Bar Chart */}
-      <div className="grid grid-cols-1 xl:grid-cols-2 caret-transparent   gap-4 sm:gap-6 mb-6 sm:mb-8">
-        <div className="bg-white rounded-lg shadow-md p-4 sm:p-6">
+      <div className="grid grid-cols-1 xl:grid-cols-2 caret-transparent    gap-4 sm:gap-6 mb-6 sm:mb-8">
+        <div className="bg-white border rounded-lg shadow-md p-4 sm:p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">
             Sales Overview
           </h3>
@@ -139,7 +139,7 @@ const dashboard = (props: Props) => {
           </ResponsiveContainer>
         </div>
         {/* Line Chart */}
-        <div className="bg-white rounded-lg shadow-md p-4 sm:p-6">
+        <div className="bg-white rounded-lg border shadow-md p-4 sm:p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">
             Revenue Trend
           </h3>
@@ -238,7 +238,7 @@ const dashboard = (props: Props) => {
       </div>
 
       {/* Traffic Sources */}
-      <div className="bg-white rounded-lg caret-transparent shadow-md p-6">
+      <div className="bg-white border rounded-lg caret-transparent shadow-md p-6">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">
           Traffic Sources
         </h3>

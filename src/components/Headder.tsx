@@ -6,7 +6,7 @@ type Props = {};
 const Headder = (props: Props) => {
   return (
     <div>
-      <header className="bg-white  shadow-sm border-b">
+      <header className="bg-white  shadow-md border-b border-gray-200">
         <div className="flex items-center justify-between px-4 sm:px-6 py-4">
           <div className="flex items-center space-x-2 sm:space-x-4">
             {/* <Menu className="w-6 h-6 text-gray-600 cursor-pointer" /> */}
